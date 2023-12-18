@@ -1,0 +1,25 @@
+/* faire le menu burger avec du css / */
+.navbar,
+.navbar div:nth-child(1){
+  display: flex;
+}
+.navbar div:nth-child(1){
+  justify-content: space-between;
+}
+.navbar div:nth-child(1) a,
+.navbar div:nth-child(1) div{
+  margin: 5px;
+}
+.navbar{
+  flex-direction: column;
+}
+.navbar ul{
+  height: 0;
+  overflow: hidden;
+}
+.navbar.active ul{
+  height: auto;
+}
+.navbar ul li{
+  text-align: center;
+}
